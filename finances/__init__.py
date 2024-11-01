@@ -1,7 +1,6 @@
-class Transaction():
-    pass
+from .transaction import Transaction
 
-
+"""
 class Account():
     pass
 
@@ -11,4 +10,4 @@ class Investment():
 
 
 class Client():
-    pass
+    pass"""

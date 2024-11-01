@@ -1,1 +1,0 @@
-from finances import Transaction
