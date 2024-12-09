@@ -1,13 +1,12 @@
+from datetime import datetime
+
 from .transaction import Transaction
+from .account import Account
+from .investment import Investment
+from .client import Client
 
-"""
-class Account():
+def generate_report(client: Client):
     pass
 
-
-class Investment():
+def future_value_report(client: Client, date: datetime):
     pass
-
-
-class Client():
-    pass"""

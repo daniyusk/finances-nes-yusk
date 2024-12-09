@@ -16,6 +16,7 @@ class Transaction:
         self.category = category
         self.description = description
 
+    # Atualiza os dados das transação
     def update(
         self,
         amount: float | None = None,
@@ -34,5 +35,6 @@ class Transaction:
         if date is not None:
             self.date = date
 
+    # Retorna dados sobre a transação
     def __str__(self):
         return f"Transação: {self.description} R$ {self.amount:.2f} ({CATEGORIES[self.category]})"
